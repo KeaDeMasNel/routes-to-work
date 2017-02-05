@@ -58,3 +58,11 @@ $route['sleep'] = 'First/zzz';
 
 /*How to Fix It	Remapped using wildcard (show / digit)*/
 $route['shw(:num)'] = 'First/gimme/$1';
+
+$route['dunno'] = function() {
+    //$source = './data/surprise.jpg';
+    header("Content-type: image/jpg");
+    header("Content-Disposition: inline");
+    readfile("../data/surprise.jpg");
+    die();
+};
