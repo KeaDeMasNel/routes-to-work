@@ -1,3 +1,4 @@
+
 <?php
 
 defined('BASEPATH') OR exit('No direct script access allowed');
@@ -24,5 +25,9 @@ class First extends Application {
             $this->data['pagebody'] = 'justone';
             $this->render();
 	}
-       
+
+        public function zzz(){
+            $this->index();
+        }
 }
+
