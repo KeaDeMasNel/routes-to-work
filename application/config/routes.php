@@ -54,5 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['lock/em/up'] = 'welcome/shucks';
 
-$route['sleep'] = "First/zzz";
+$route['sleep'] = 'First/zzz';
 
+/*How to Fix It	Remapped using wildcard (show / digit)*/
+$route['shw(:num)'] = 'First/gimme/$1';
