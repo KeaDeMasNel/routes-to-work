@@ -21,6 +21,15 @@ Nicholas Nelson
 ### Added
 - Finished #1 (First) task
 
+### Added
+- Finished #3 (Sleep) task
+
+### Added
+- Finished #5 (Show) task
+
+### Added
+- Finished #9 (Default Controller) task
+
 ## [0.0.1] - 2017-01-31
 ### Added
 - Initial Setup and Fork
